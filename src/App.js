@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import MyFirstComponent from './components/MyFirstComponent';
+import TodoApp from "./components/todo/TodoApp"
+import 'semantic-ui-css/semantic.min.css'
+
 
 function App() {
   return (
     <div className="App">
-      <MyFirstComponent prop1="hi"/>
-      <h1>Counter Application</h1>
+      <TodoApp />
     </div>
   );
 }
